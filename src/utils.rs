@@ -39,14 +39,14 @@ pub fn input() -> String {
     // };
 }
 
-pub fn input_menu() -> i32 {
+pub fn input_menu() -> u8 {
     let mut input: String = String::new();
 
     io::stdin()
         .read_line(&mut input)
         .expect("Error");
 
-    let num: i32 = match input.trim().parse() {
+    let num:u8  = match input.trim().parse() {
         Ok(n) => n,
         Err(_) => {
             println!("Invalid Number");

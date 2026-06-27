@@ -1,6 +1,20 @@
-{
-  "id": 1,
-  "msg": "Tome aguaaaaa",
-  "ativo": true,
-  "horario": "2026-06-21T20:39:31.533825970-03:00"
-}
+[
+  {
+    "mensagem": "ovo\n",
+    "categoria": "comida\n",
+    "a_delete": true,
+    "horario": "10:09:00"
+  },
+  {
+    "mensagem": "seox\n",
+    "categoria": "dfds\n",
+    "a_delete": true,
+    "horario": "03:32:00"
+  },
+  {
+    "mensagem": "obaoba\n",
+    "categoria": "sexo\n",
+    "a_delete": true,
+    "horario": "01:30:00"
+  }
+]
